@@ -30,6 +30,12 @@ name: "SocialLinks"
 
     .social-links__list-link {
       color: #fff;
+      transition: color 0.3s ease;
+
+      &:hover {
+        cursor: pointer;
+        color: #210710;
+      }
     }
   }
 </style>
