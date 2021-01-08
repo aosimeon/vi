@@ -32,6 +32,10 @@ body {
       , rgb(203, 41, 100) 50%
       , rgb(203, 41, 100) 100%
   );
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: auto;
   margin:0;
   padding: 0;
 }

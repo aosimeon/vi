@@ -26,7 +26,7 @@ name: "MainNav"
     display: flex;
     justify-content: center;
     margin-top: -70px;
-    margin-left: 2rem;
+    margin-left: 5rem;
   }
   .main-nav__list-img {
     width: 100px;
@@ -71,5 +71,15 @@ name: "MainNav"
 
   .main-nav__list-item:nth-of-type(4) {
     margin-left: 0;
+  }
+
+  @media only screen and (max-width: 800px) {
+    .main-nav__list-item {
+      margin: 0 5.5rem;
+    }
+
+    .main-nav__list-item:nth-of-type(1) {
+
+    }
   }
 </style>
